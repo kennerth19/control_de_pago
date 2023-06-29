@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(32, 32, 35);
+    color: #fff;
+}
+
+.main_tittle {
+    text-align: center;
+    font-family: 'Minecraft';
+    font-weight: lighter;
+    letter-spacing: 2px;
+    min-width: 320px;
+}
+
+.main_container,
+.second_container {
+    display: grid;
+    grid-template-columns: 5% 1fr 23%;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+    min-width: 320px;
+}
+
+.exp_n {
+    margin: 20px;
+}
+
+form {
+    width: 99%;
+}
+
+.modal,
+.modal_f {
+    position: fixed;
+    width: -webkit-fill-available;
+    height: 96%;
+    top: 5px;
+    display: none;
+    background-color: rgb(31, 31, 33);
+    border: 3px solid rgb(58, 58, 62);
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 100;
+}
+
+.cross_modal{
+    position: fixed;
+    right: 3px;
+    top: 2px;
+    cursor:pointer;
+    border-style: none;
+    transform: scale(1.3);
+}
+
+.cross_modal:hover{
+    color: #fff;
+    background: rgb(255, 0, 0);
+}
+
+.name {
+    text-align: center;
+    font-size: 22px;
+}
+
+.container {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.second_container {
+    border: solid 0.5px;
+    height: -webkit-fill-available;
+}
+
+.second_container:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.modal_r {
+    display: none;
+    position: fixed;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding: 5px;
+    top: 0px;
+    display: none;
+    background-color: rgb(31, 31, 33);
+    border: 3px solid rgb(58, 58, 62);
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.item_form_reg{
+    position: relative;
+    z-index: 15;
+    text-align: center;
+}
+
+/* inicio del formuluario para agregar al programa*/
+.form_reg{
+    width: 99%;
+}
+
+.form_reg_0{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.comentario{
+    width: 98%;
+    resize: none;
+    background-color: rgb(31, 31, 33);
+    border: 3px solid rgb(58, 58, 62);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.ip_pre_reg, .item_dep_reg{
+    width: 90%;
+    background-color: rgb(31, 31, 33);
+    border: 3px solid rgb(58, 58, 62);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.date, .sub_b{
+    background-color: rgb(31, 31, 33);
+    border: 2px solid rgb(58, 58, 62);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.date{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sub_b{
+    width: 150px;
+    height: 80px;
+}
+/*Fin del formuluario para agregar al programa */
+
+.op_form{
+    position: relative;
+    top: -1px;
+    height: 100%;
+    width: -webkit-fill-available;
+    background-color: rgb(31, 31, 33);
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+}
+
+.op_form:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.rounded{
+    border-radius: 5px 5px 0 0;
+}
+
+.rounded_f{
+    border-radius: 0 5px 0 0;
+}
+
+.close_tap{
+    position: absolute;
+    background-color: transparent;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    z-index: 10;
+}

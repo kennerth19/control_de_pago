@@ -1,0 +1,12 @@
+
+Haciendo ping a 10.18.18.1 con 32 bytes de datos:
+Respuesta desde 10.18.18.1: bytes=32 tiempo<1m TTL=64
+Respuesta desde 10.18.18.1: bytes=32 tiempo<1m TTL=64
+Respuesta desde 10.18.18.1: bytes=32 tiempo<1m TTL=64
+Respuesta desde 10.18.18.1: bytes=32 tiempo<1m TTL=64
+
+Estad¡sticas de ping para 10.18.18.1:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    M¡nimo = 0ms, M ximo = 0ms, Media = 0ms
